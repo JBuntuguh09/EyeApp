@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882352192656",
+    "firebase_url": "https://optchatapp.firebaseio.com",
+    "project_id": "optchatapp",
+    "storage_bucket": "optchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882352192656:android:85a86b8ad446284f",
+        "android_client_info": {
+          "package_name": "app.start.lonewolf.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882352192656-2hmn8pcc16hhdvee9frgrb95lmi758t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.start.lonewolf.chatapp",
+            "certificate_hash": "1a990126a278c7a05ec6de2c074ec25edb3f6ffa"
+          }
+        },
+        {
+          "client_id": "882352192656-v3c6b5o4s0p5prlr2tb14sh8gsfmm941.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdTnvvcP10ny6P-I1joO_4FvnN9G1HIZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882352192656-v3c6b5o4s0p5prlr2tb14sh8gsfmm941.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

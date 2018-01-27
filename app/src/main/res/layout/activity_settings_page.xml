@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.start.lonewolf.chatapp.SettingsPage">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/disPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDisName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/txtDisName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Display Name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtDisStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hi, I'm using EyeHQ"
+        android:layout_below="@+id/txtDisName"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/butChangeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:text="Change Image"
+        android:layout_below="@+id/txtDisStatus"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/butChangeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butChangeImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Change Status" />
+
+</RelativeLayout>

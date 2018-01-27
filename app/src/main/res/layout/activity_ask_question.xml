@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.start.lonewolf.chatapp.AskQuestion">
+
+    <include
+        android:id="@+id/askQuesLayout"
+        layout="@layout/app_bar_layout" />
+
+    <TextView
+        android:id="@+id/txtTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/askQuesLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Ask Eye HQ a Question"
+        android:textAllCaps="true"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/textInputLayout7"
+        android:layout_below="@+id/txtTopic">
+
+        <EditText
+            android:id="@+id/edtQuestionTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="TOPIC"
+            android:inputType="text|textCapCharacters"
+            android:padding="15dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textInputLayout8"
+        android:layout_below="@+id/textInputLayout7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/edtSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:hint="Question/Issue"
+            android:inputType="text|textMultiLine"
+            android:padding="20dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnQuesSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTopic"
+        android:layout_alignStart="@+id/txtTopic"
+        android:layout_below="@+id/textInputLayout8"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="71dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnQuesCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnQuesSubmit"
+        android:layout_alignEnd="@+id/txtTopic"
+        android:layout_alignRight="@+id/txtTopic"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:text="Cancel" />
+
+</RelativeLayout>
