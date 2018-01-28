@@ -23,6 +23,7 @@ public class Frag_Send_Tips extends Fragment {
     private DatabaseReference databaseReference, refId;
     private Button submit, close;
     private EditText tip;
+    private String test;
 
     public Frag_Send_Tips() {
         // Required empty public constructor
